@@ -6,7 +6,7 @@ const Home = () => {
   const loggedIn = { firstName: "La" };
   return (
     <section className="home">
-      <div className="home -content">
+      <div className="home-content">
         <header className="home-header">
           <HeaderBox
             type="greeting"
@@ -14,14 +14,13 @@ const Home = () => {
             user={loggedIn?.firstName || "Guest"}
             subtext="Access and manage your account and transactions efficiently."
           />
+          <TotalBalanceBox
+            accounts={[]}
+            totalBanks={[1]}
+            totalCurrentBalance={[1250.56]}
+          />
         </header>
       </div>
-
-      <TotalBalanceBox
-        accounts={[]}
-        totalBanks={[1]}
-        totalCurrentBalance={[1250.56]}
-      />
     </section>
   );
 };
