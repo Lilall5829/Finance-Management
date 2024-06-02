@@ -29,4 +29,4 @@ To learn more about Next.js, take a look at the following resources:
 - [React-chartjs](https://react-chartjs-2.js.org/) -- see Quickstart
 - [Server and Client Composition Patternst](https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns) -- when should we use client pattern
 - [Sidebar](https://ui.shadcn.com/docs/components/sheet) -- how to create a sidebar
-
+- ctrl + p: shortcut of finding a file
